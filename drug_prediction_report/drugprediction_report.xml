@@ -1,5 +1,5 @@
 <tool id='drugprediction_report' name="Drug Prediction Report" version='1.0.0'>
-    <description>removes unwated variation based on replicate samples.</description>
+    <description>older removes unwated variation based on replicate samples.</description>
     <requirements>
         <!--requirement type="package" version="3.6.2">r-base</requirement-->
         <!--requirement type="package" version="2.9.1.1">pandoc</requirement-->
@@ -40,7 +40,7 @@
                                                              response = response,
                                                              sample = sample,
                                                              prediction_file=prediction_file,
-                                                             drug_table_file = drug_table_file), clean=FALSE)
+                                                             drug_table_file = drug_table_file), clean=FALSE, intermediates_dir=".",output_dir=".")
             }
 
         </configfile>

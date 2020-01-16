@@ -1,7 +1,7 @@
 <tool id='drugprediction_report' name="Drug Prediction Report" version='1.0.0'>
     <description>older removes unwated variation based on replicate samples.</description>
     <requirements>
-        <requirement type="package" version="3.6.2">r-base</requirement>
+        <requirement type="package" version="3.6.1">r-base</requirement>
         <requirement type="package" version="2.9.1.1">pandoc</requirement>
         <requirement type="package" version="1.26">r-knitr</requirement>
         <requirement type="package" version="1.4.3">r-reshape2</requirement>

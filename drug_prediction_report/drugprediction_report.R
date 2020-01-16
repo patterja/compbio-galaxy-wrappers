@@ -27,5 +27,5 @@ if (length(args) != 6) {
                                   response = response,
                                   sample = sample,
                                   prediction_file=prediction_file,
-                                  drug_table_file = drug_table_file))
+                                  drug_table_file = drug_table_file), clean=FALSE)
 }

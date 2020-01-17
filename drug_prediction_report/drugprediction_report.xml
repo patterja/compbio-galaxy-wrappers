@@ -10,7 +10,7 @@
         <requirement type="package" version="3.2.1">r-ggplot2</requirement>
     </requirements>
     <command detect_errors="exit_code"><![CDATA[
-        #set HOME=/$PWD &&
+        #HOME = '/${PWD}'
         Rscript $run $__tool_directory__ $basemat_filename $response $sample $prediction_file $drug_table_file
     ]]></command>
 
